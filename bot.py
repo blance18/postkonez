@@ -5,7 +5,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ConversationHandler, ContextTypes, filters
 
 # Вставьте ваш токен вручную
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN ="BOT_TOKEN"
 
 (ADD_CHANNEL, SELECT_CHANNEL, GET_TEXT, GET_MEDIA, GET_BUTTONS, GET_TIME, GET_FREQUENCY, CONFIRM) = range(8)
 db_file = "db.json"
